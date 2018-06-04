@@ -1,0 +1,110 @@
+called: gcc
+	/home/csgrad/ankeshni/.netbeans/remote/stones.cse.buffalo.edu/desktop-d3cp2oj-Windows-x86/C/Users/Ankesh N. Bhoi/Desktop/cse489589_assignment3/ankeshni
+	gcc
+	-c
+	-o
+	object/ankeshni_assignment3.o
+	src/ankeshni_assignment3.c
+	-g
+	-I./include
+
+called: gcc
+	/home/csgrad/ankeshni/.netbeans/remote/stones.cse.buffalo.edu/desktop-d3cp2oj-Windows-x86/C/Users/Ankesh N. Bhoi/Desktop/cse489589_assignment3/ankeshni
+	gcc
+	-c
+	-o
+	object/author.o
+	src/author.c
+	-g
+	-I./include
+
+called: gcc
+	/home/csgrad/ankeshni/.netbeans/remote/stones.cse.buffalo.edu/desktop-d3cp2oj-Windows-x86/C/Users/Ankesh N. Bhoi/Desktop/cse489589_assignment3/ankeshni
+	gcc
+	-c
+	-o
+	object/connection_manager.o
+	src/connection_manager.c
+	-g
+	-I./include
+
+called: gcc
+	/home/csgrad/ankeshni/.netbeans/remote/stones.cse.buffalo.edu/desktop-d3cp2oj-Windows-x86/C/Users/Ankesh N. Bhoi/Desktop/cse489589_assignment3/ankeshni
+	gcc
+	-c
+	-o
+	object/control_handler.o
+	src/control_handler.c
+	-g
+	-I./include
+
+called: gcc
+	/home/csgrad/ankeshni/.netbeans/remote/stones.cse.buffalo.edu/desktop-d3cp2oj-Windows-x86/C/Users/Ankesh N. Bhoi/Desktop/cse489589_assignment3/ankeshni
+	gcc
+	-c
+	-o
+	object/control_header_lib.o
+	src/control_header_lib.c
+	-g
+	-I./include
+
+called: gcc
+	/home/csgrad/ankeshni/.netbeans/remote/stones.cse.buffalo.edu/desktop-d3cp2oj-Windows-x86/C/Users/Ankesh N. Bhoi/Desktop/cse489589_assignment3/ankeshni
+	gcc
+	-c
+	-o
+	object/network_util.o
+	src/network_util.c
+	-g
+	-I./include
+
+called: gcc
+	/home/csgrad/ankeshni/.netbeans/remote/stones.cse.buffalo.edu/desktop-d3cp2oj-Windows-x86/C/Users/Ankesh N. Bhoi/Desktop/cse489589_assignment3/ankeshni
+	gcc
+	-o
+	assignment3
+	object/ankeshni_assignment3.o
+	object/author.o
+	object/connection_manager.o
+	object/control_handler.o
+	object/control_header_lib.o
+	object/network_util.o
+	-g
+	-I./include
+
+called: /util/bin/ld
+	/home/csgrad/ankeshni/.netbeans/remote/stones.cse.buffalo.edu/desktop-d3cp2oj-Windows-x86/C/Users/Ankesh N. Bhoi/Desktop/cse489589_assignment3/ankeshni
+	/util/bin/ld
+	--eh-frame-hdr
+	-m
+	elf_x86_64
+	-dynamic-linker
+	/lib64/ld-linux-x86-64.so.2
+	-o
+	assignment3
+	/usr/lib/../lib64/crt1.o
+	/usr/lib/../lib64/crti.o
+	/util/gcc-6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtbegin.o
+	-L/util/gcc-6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0
+	-L/util/gcc-6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64
+	-L/lib/../lib64
+	-L/usr/lib/../lib64
+	-L/util/gcc-6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../..
+	object/ankeshni_assignment3.o
+	object/author.o
+	object/connection_manager.o
+	object/control_handler.o
+	object/control_header_lib.o
+	object/network_util.o
+	-lgcc
+	--as-needed
+	-lgcc_s
+	--no-as-needed
+	-lc
+	-lgcc
+	--as-needed
+	-lgcc_s
+	--no-as-needed
+	/util/gcc-6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtend.o
+	/usr/lib/../lib64/crtn.o
+

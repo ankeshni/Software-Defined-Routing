@@ -1,0 +1,7 @@
+gcc -c -o object/ankeshni_assignment3.o src/ankeshni_assignment3.c -g -I./include
+gcc -c -o object/author.o src/author.c -g -I./include
+gcc -c -o object/connection_manager.o src/connection_manager.c -g -I./include
+gcc -c -o object/control_handler.o src/control_handler.c -g -I./include
+gcc -c -o object/control_header_lib.o src/control_header_lib.c -g -I./include
+gcc -c -o object/network_util.o src/network_util.c -g -I./include
+gcc -o assignment3 object/ankeshni_assignment3.o object/author.o object/connection_manager.o object/control_handler.o object/control_header_lib.o object/network_util.o -g -I./include 
